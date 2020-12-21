@@ -9,7 +9,7 @@ const defaultState={
   captchaUrl: null,
 }
 
-const authReducer =(state = defaultState, action)=>{
+const authReduser =(state = defaultState, action)=>{
   switch(action.type){
     case SET_USER_DATA:
     case GET_CAPTCHA_URL_SUCCESS:
@@ -26,4 +26,4 @@ export const getAuthUserData = getAuthUserData_;
 export const login = loginIn;
 export const logout = logout_;
 
-export default authReducer;
+export default authReduser;

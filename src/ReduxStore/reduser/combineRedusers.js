@@ -5,12 +5,11 @@ import initializedReduser from "./initialReduser/initialReduser";
 import profileReduser from "./profileReduser/profileReduser";
 import usersReduser from "./usersRedusers/usersRedusers";
 import userPostReduser from "./postReduser/userPostsReduser/postReduser";
+import authReduser from "./authreduser/authReduser";
 const { applyMiddleware, combineReducers, compose, createStore } = require("redux");
-const { default: authReducer } = require("./authReduser/authReduser");
-
 
 const reducers = combineReducers({
-  auth: authReducer,
+  auth: authReduser,
   form: formReducer,
   dialog: dialogReduser,
   initialized: initializedReduser,
