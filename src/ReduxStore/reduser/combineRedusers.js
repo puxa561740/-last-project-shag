@@ -6,7 +6,7 @@ import profileReduser from "./profileReduser/profileReduser";
 import usersReduser from "./usersRedusers/usersRedusers";
 import userPostReduser from "./postReduser/userPostsReduser/postReduser";
 const { applyMiddleware, combineReducers, compose, createStore } = require("redux");
-const { default: authReducer } = require("./authreduser/authReduser");
+const { default: authReducer } = require("./authReduser/authReduser");
 
 
 const reducers = combineReducers({

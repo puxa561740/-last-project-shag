@@ -1,4 +1,4 @@
-import { getAuthUserData_ } from "../authreduser/actions/actions";
+import { getAuthUserData_ } from "../authReduser/actions/actions";
 import { initializedSuccess } from "./action/action";
 import { INITIALIZED_SUCCESS } from "./constans/constans";
 
